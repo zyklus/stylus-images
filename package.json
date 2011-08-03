@@ -1,0 +1,14 @@
+{
+	"name": "stylus-images"
+  , "description": "CSS Image utilities built on top of stylus and node-canvas"
+  , "version": "0.0.1"
+  , "author": "Mark Kahn <cwolves@gmail.com>"
+  , "keywords": ["css", "image utilities", "image", "canvas"]
+  , "repository": "git://github.com/cwolves/stylus-images"
+  , "main": "./index.js"
+  , "engines": { "node": ">= 0.2.4" }
+  , "dependencies": {
+      "stylus": "0.13.8"
+    , "canvas": "0.7.0"
+  }
+}

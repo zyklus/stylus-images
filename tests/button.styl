@@ -1,0 +1,17 @@
+gradientButton( width = 50px, height = 20px, color1 = #B0B0B0, color2 = #666666, stop = .6, stopColor=#8A8A8A, borderRadius = 2px, noiseLevel = 10%, borderRadius = 5px, shadowDistance = 2px, shadowBlur = 2px, shadowColor = #888 )
+	width      width
+	height     height
+	background image(
+		gradient      linear, 0% 0%, 0% 100%, from( color1 ), to( color2 ), color-stop( stop, stopColor )
+		contract      borderRadius
+			gradient  linear, 0% 0%, 0% 100%, from( color2 ), to( color1 ), color-stop( stop, stopColor )
+		noise         noiseLevel rgba(0, 0, 0, 0) rgba(0, 0, 0, .2)
+		border-radius borderRadius
+		box-shadow    shadowDistance shadowDistance shadowBlur shadowColor
+	)
+
+.button1
+	gradientButton()
+
+.button2
+	gradientButton( color1 : red, color2 : blue )
