@@ -8,10 +8,23 @@
 
 .div1 {
   background: url("sprite-0.png");
-  size: url("sprite-0.png");
+  width: 77px;
+  height: 38px;
   background-position: 0 0;
-  background-position: 0 -38px;
 }
 .div1:hover {
-  background: ;
+  background: url("sprite-0.png");
+  background-position: 0 -38px;
+}
+.div2 {
+  background: url("sprite-0.png");
+  width: 18px;
+  height: 15px;
+  background-position: 0 -76px;
+}
+.div3 {
+  background: url("sprite-0.png");
+  width: 10px;
+  height: 6px;
+  background-position: -18px -76px;
 }
